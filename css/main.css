@@ -1,0 +1,280 @@
+/*Configuracion de html*/
+.container{
+	width: 1200px;
+}
+
+/*Ecabezado de navegacion*/
+#logo{
+	height: 90px;
+	width: 100px;
+	margin: 20px;
+}
+nav{
+	margin-top:70px;
+ 	margin-left: 30%;
+}
+nav a{
+	list-style: none;
+	float: left;
+	font-size: 18px;
+	margin-left: 20px;
+	text-decoration: none;
+ 	color:#A4A4A4;
+ 	display: inline;
+ 	border-right: 1px solid #A4A4A4;
+ 	text-align: center;	
+ 	padding-right: 30px;
+}
+/*Seccion de imagen y presentacion*/
+.fondo{
+	background-color: #E6E6E6;  /*fondo abajo azul*/
+	width: 1200px;
+	z-index: -1;
+}
+
+#present{    /*fondo de fotogragia*/
+	width: 1200px;
+	height: 300px;
+}
+
+.text{
+	letter-spacing:none;
+	font-family: Helvetica;
+	font-size: 14px;
+	position: relative;
+	bottom: 50px;
+	left: 100px;
+	width: 800px;
+	padding: 50px;
+	margin:100px;
+	text-align: center;
+	opacity: 0.5;
+}
+/*Seccion dos Vision y Mision*/
+
+.seccls{
+	position: relative;
+	left: 200px;
+}
+.title{
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.txts2{
+	width: 500px;
+	height: 100px;
+	margin:20px 50px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+/*Seccion de metodologia*/
+
+.verde{
+	background-image: url(../img/fondo.jpg);
+	width: 1200px;
+	padding: auto;
+}
+#metodo{
+	width: 600px;
+	position: relative;
+	left: -15px;
+}
+
+#icomet{
+	position: relative;
+	top:80px;
+	left:250px;
+}
+.me{
+	position: relative;
+	top: 100px;
+	left: 220px;
+	margin-bottom: 20px;
+	color:#FFFFFF;
+	font-family: Helvetica;
+}
+.met{
+	position: relative;
+	top: 100px;
+	color:#FFFFFF;
+	font-family: Helvetica;
+	text-align: center;
+}
+/*Servicios del proyecto*/
+.servicios{
+	width: 1200px;
+}
+.services{
+	text-align: center;
+	font-family: Tahoma;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+.servimg{
+	margin:20px 0 20px 120px;
+}
+
+.servititle{
+	text-align: center;
+	margin:20px 0 0 50px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: tahoma;
+	color:#088A08;
+	width: 300px;
+}
+.servip{
+	margin:20px;
+	text-align: center;
+}
+
+.corto{ /*osea, que pedo...por que no se centra?*/
+	text-align: center;
+	padding-left: 70px;
+	width: 150px;
+}
+
+/*Seccion de proyectos*/
+.olivo{
+	background-color: #688A08;
+	width: 1200px;
+}
+.proyectimg{
+	width: 400px;
+	height: 300px;
+	margin-left: 60px;
+}
+.proyect{
+	width: 500px;
+	height: 250px;
+	text-align: center;
+	color:#FFFFFF;
+	position: absolute;
+	top: 100px;
+	right: 100px;
+}
+
+.proyect0{
+	text-align: center;
+	color:#FFFFFF;
+	position: relative;
+	top: 50px;
+	right: 50px;
+}
+#team{
+	text-align: center;
+	margin: 20px;
+	font-family: Tahoma;
+}
+.pperfil{
+	width: 200px;
+	border: 1px solid white:;
+	border-radius: 300px;
+	margin-top: 100px;
+	margin-left: 100px;
+}	
+.dateperfil{
+	text-align: center;
+	font-size: Tahoma;
+	width: 400px;
+	font-size: 14px;
+}
+.contact{
+	width: 30px;
+	height: 30px;
+	margin:25px 25px;
+	position: relative;
+	left: 80px;
+}
+/*Seccion de proyectos con fondo feo*/
+#ugly{
+	background-image: url(../img/fondo2.jpg);
+}
+#blog{
+	margin:20px;
+	font-family: Tahoma;
+}
+.slides img {
+	margin-top: 50px;
+	margin-left: 10px;
+	width:75%;
+}
+
+.slides h3, h6{
+	margin:10px;
+	position: relative;
+	left: 10px;
+	text-align: left;
+	font-family: Tahoma;
+}
+
+.slides span{
+	position: relative;
+	left: 10px;
+	margin-bottom: 20px;
+
+}
+.button{
+	margin-top: 100px;
+	margin-left: 10px;
+}
+
+/*tabla de contacto*/
+.gris1{
+	background-color: #424242;
+}
+
+table{
+	position: relative;
+	left:80px;
+	border: 2px solid #FFFFFF;
+	border-collapse: collapse; 
+	margin-top: 30px;
+	margin-bottom:30px;
+	width: 100px;
+}
+
+
+td{
+	width:25px;
+	padding:10px 30px 40px 120px;
+	border-right: 2px solid #FFFFFF;
+	margin: 20px;
+	
+	
+}
+
+.tabletxt{
+	font-size: 18px;
+	padding-right:80px;
+	color:#FFFFFF;
+	font-family: Tahoma;
+	position: relative;
+	top: 10px;
+	right: 90px;
+	margin-right: 120px;
+}
+
+
+.contactpa{
+	width: 40px;
+	height: 40px;
+	margin-top: 90px;
+	float:right;
+}
+.piecin{
+	margin-top:50px;
+	font-size: 	16px;
+	font-family: tahoma;
+}
+.izq{
+	text-align:right;
+}
+
+#orange{
+	color:orange;
+}
